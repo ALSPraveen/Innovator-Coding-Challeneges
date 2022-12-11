@@ -1,0 +1,6 @@
+version : '3.0'
+services :
+         myt:
+            image : parentfolder
+            ports :
+               - 8050:8080

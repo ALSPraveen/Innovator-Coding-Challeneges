@@ -1,0 +1,6 @@
+version: '3.0'
+services:
+       mynginx:
+            image: nginximage
+            ports:
+                 -  8075:8080

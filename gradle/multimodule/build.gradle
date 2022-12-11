@@ -1,0 +1,7 @@
+allprojects{
+task myTask{
+    doLast{
+        println project.name
+    }
+}
+}
